@@ -1,0 +1,17 @@
+﻿  dlgprnt2.cpp
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxwin.h(1167,52): error C4596: 'FromHandlePermanent': illegal qualified name in member declaration
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxcom_.h(357,41): error C3861: 'GetIID': identifier not found
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxcom_.h(357,47): message : 'GetIID': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxcom_.h(393): message : see reference to class template instantiation 'CIP<_Interface,_IID>' being compiled
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxcom_.h(379,16): error C3861: 'QueryInterface': identifier not found
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxcom_.h(379,30): message : 'QueryInterface': function declaration must be available as none of the arguments depend on a template parameter
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\atlconv.h(7,10): fatal error C1083: Cannot open include file: '..\atl30\atlconv.h': No such file or directory
+  HIFCIF.cpp
+C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42\afxwin.h(1167,52): error C4596: 'FromHandlePermanent': illegal qualified name in member declaration
+C:\Users\viogh\Desktop\nd PROJECTS\TRT\globals.h(372,1): warning C4005: 'THREAD_RESUME': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(11449): message : see previous definition of 'THREAD_RESUME'
+C:\Users\viogh\source\repos\HIFCIF\HIFCIF.cpp(80,16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\viogh\source\repos\HIFCIF\HIFCIF.cpp(82,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\viogh\source\repos\HIFCIF\HIFCIF.cpp(86,17): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\viogh\source\repos\HIFCIF\HIFCIF.cpp(88,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...

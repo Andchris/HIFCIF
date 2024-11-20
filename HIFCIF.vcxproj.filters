@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HIFCIF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\dlgprnt2.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxadv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxbld_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcmn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcom_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdd_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdisp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdllx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdll_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdocob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdtctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxhtml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxinet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxisapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxmsg_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxodlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxoledb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxplex_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxpriv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxpriv2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxprntx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxrich.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxsock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxstat_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxtempl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxtls_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxver_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_w32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxwin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\atlconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\atldef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\datapath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\idispids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\winres.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\nd PROJECTS\TRT\FOR FCJ\STDAFX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Desktop\nd PROJECTS\TRT\FOR FCJ\Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afx.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcmn.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcmn2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcoll.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxctl.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcview.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdao.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdlgs.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdtctl.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxext.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxhelp.hm">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxhtml.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxinet.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxisapi.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxmt.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxole.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxrich.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxsock.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxwin1.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxwin2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxctl.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxisapi.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxolecl.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxolesv.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxprint.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxres.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

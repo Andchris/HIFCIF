@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6e7d3725-997f-47d4-8e7e-c4bf8c92a027}</ProjectGuid>
+    <RootNamespace>HIFCIF</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\viogh\Desktop\nd PROJECTS\TRT;C:\Users\viogh\Documents\msiext-1.5 (1)\mfc42;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\dlgprnt2.cpp" />
+    <ClCompile Include="HIFCIF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Desktop\nd PROJECTS\TRT\FOR FCJ\Globals.h" />
+    <ClInclude Include="..\..\..\Desktop\nd PROJECTS\TRT\FOR FCJ\STDAFX.H" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afx.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxadv.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxbld_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcmn.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcoll.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcom_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxconv.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxctl.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcview.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdao.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdd_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdisp.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdlgs.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdllx.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdll_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdocob.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdtctl.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxext.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxhtml.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxinet.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxisapi.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxmsg_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxmt.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxodlgs.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxole.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxoledb.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxplex_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxpriv.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxpriv2.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxprntx.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxres.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxrich.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxsock.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxstat_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxtempl.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxtls_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxver_.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_cfg.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_cpu.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_dll.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_mac.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxv_w32.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxwin.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\atlconv.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\atldef.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\datapath.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\idispids.h" />
+    <ClInclude Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\winres.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afx.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcmn.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcmn2.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcoll.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxctl.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxcview.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdao.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdlgs.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdtctl.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxext.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxhelp.hm" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxhtml.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxinet.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxisapi.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxmt.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxole.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxrich.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxsock.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxwin1.inl" />
+    <None Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxwin2.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxctl.rc" />
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxdb.rc" />
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxisapi.rc" />
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxolecl.rc" />
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxolesv.rc" />
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxprint.rc" />
+    <ResourceCompile Include="..\..\..\Documents\msiext-1.5 (1)\mfc42\afxres.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
